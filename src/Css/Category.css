@@ -1,0 +1,282 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: auto;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin: 10px;
+  margin-top: 0;
+  margin-top: 0;
+  grid-auto-rows: 300px;
+}
+
+.video-box {
+  text-align: center;
+  margin: 5px;
+  margin-top: 25px;
+}
+
+.video-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 7px;
+  margin-bottom:0;
+}
+
+h2{
+  margin-top: 40px;
+  margin-bottom: 0;
+  color: black;
+  font-family: "Roboto Slab", Arial, Helvetica, Sans-Serif;
+  font-weight: bold; 
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+h3{
+  font-family: "Roboto Slab", Arial, Helvetica, Sans-Serif;
+  text-align: left;
+  margin: 10px;
+  margin-left: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 10px;
+  height: 75px;
+  overflow: hidden;
+  text-overflow: clip;
+  color: rgb(17,17,51); 
+  box-sizing: border-box;
+  clear: both;
+}
+
+
+
+p{
+  font-family: Alice;
+  text-align: left;
+  font-size: 15px;
+  color: #94A7AE;
+  font-weight: bold;
+  margin-top:0 ;
+}
+ 
+.loading{
+  display: none;
+}
+
+.img-container {
+  position: relative;
+  text-align: center;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 18px;
+  right: 16px;
+  color: white;
+  font-size: 12px;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 3px;
+  border-radius: 2px;
+}
+
+
+.ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  margin: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+.link {
+  margin: 10px;
+  color: rgb(17,17,51);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: #EBE9EB;
+  padding:15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.li-link{
+  color: black;
+  background-color: #EBE9EB;
+  border: none;
+}
+
+.li-link: hover{
+  background-color: #87CEEB;
+}
+
+.link:hover {
+  background-color: #87CEEB;
+}
+
+.active-link {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: #062F4F;
+  padding:15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+.next-button {
+  margin: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: #062F4F;
+  padding:15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button{
+  margin: 10px;
+  color: #BEBEBE;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: #F7FCFE;
+  padding:15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button:active,
+.next-icon:active,
+.li-link:active {
+  background-color: #87CEEB;
+  border: none;
+}
+
+
+.next-button:active,
+.next-icon:active {
+  background-color: #87CEEB;
+  border: none;
+}
+
+
+
+.button-one{
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(17,17,51);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Roboto;
+  background: #EBE9EB;
+  padding:15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.button-one:hover{
+  background: #87CEEB;
+}
+
+.button-off{
+  display: none;
+}
+
+
+@media only screen and (max-width: 768px) {
+  .container{
+    display: block;
+  }
+  
+  .video-box{
+    margin-top: 50px;
+  }
+  
+  .video-box:first-child{
+    margin-top: 15px;
+  }
+  
+  h3{
+    text-align: left;
+    font-size: 15px;
+    overflow: hidden;
+    height: 45px;
+    height: auto;
+    text-overflow: ellipsis;
+    margin-bottom: 5px;
+    margin-top: 0;
+  }
+  
+  p{
+    margin-top: 0;
+    font-size: 10px;
+  }
+  
+
+  .link{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    margin: 5px;
+  }
+  .active-link{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    margin: 5px;
+  }
+  
+  .li-link{
+    font-size: 10px;
+  }
+
+  .next-button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+  }
+  
+  .button{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 5px;
+  }
+  
+  .button-one{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 10px;
+    margin: 5px;
+  }
+  
+  
+}
+

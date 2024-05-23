@@ -1,0 +1,45 @@
+.cate-heading{
+  text-align: center;
+  font-size: 30px;
+}
+
+.categories{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:10px ;
+  padding: 5px;
+}
+.cate{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 70px;
+  margin-right: auto;
+  padding: 20px;
+}
+.cate a{
+  font-size: 20px;
+  color: #023020;
+  width: 100%;
+  padding-bottom: 40px;
+  font-family: "Roboto Slab", Arial, Helvetica, Sans-Serif;
+  font-weight: bold; 
+}
+
+
+@media screen and (max-width: 780px){
+  .cate{
+     margin : 10px;
+     margin-left: 30px;
+     padding: 10px;
+}
+  .cate a{
+     width: 100%;
+     font-size: 15px;
+     
+   }
+   
+  .cate-heading{
+     font-size: 20px;
+   }
+}

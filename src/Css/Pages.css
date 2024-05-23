@@ -1,0 +1,18 @@
+.about{
+  text-align: center;
+  color: rgb(17,17,51);
+  margin-bottom: 10px;
+}
+.about-paragraph{
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  color: #023020;
+  font-family: "Roboto Slab", Arial, Helvetica, Sans-Serif;
+}
+
+.foot{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}

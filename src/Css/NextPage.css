@@ -1,0 +1,43 @@
+.nextpage-container{
+  display: flex;
+  list-style: none;
+  width: 100%;
+}
+.nextpage-container ul{
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.nextpage{
+  color: black;
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+  background: lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nextpage :hover,
+.nextpage :active{
+  background: red;
+}
+
+.link{
+  color: red;
+}
+
+.div{
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .nextpage{
+    margin: 5px;
+    padding: 2px;
+    font-size: 10px;
+  }
+  
+  
+}
