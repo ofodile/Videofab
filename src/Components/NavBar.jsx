@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react"
 import styles from "../Css/NavBar.module.css"
 import { Link, Outlet} from 'react-router-dom';
+import AdComponent2 from './AdComponent2.jsx'
 import SearchBar from './SearchBar.jsx'
 import { FaSearch } from "react-icons/fa";
 import { useScrollRestoration } from 'use-scroll-restoration';

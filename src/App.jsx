@@ -1,6 +1,7 @@
-import React from 'react';
-import "./Css/App.css"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import{ React, useEffect } from 'react';
+import "./Css/App.css" 
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
+import {initializeGA, trackPageView} from './Components/Analytics.jsx';
 import NavBar from './Components/NavBar.jsx';
 import SearchBar from './Components/SearchBar.jsx';
 import SearchResult from './Components/SearchResult.jsx';
@@ -74,10 +75,19 @@ import RelatedPost from './Components/RelatedPost.jsx';
 import Footer from './Components/Footer.jsx';
 
 const App = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    initializeGA();
+  }, []);
+
+  useEffect(() => {
+    trackPageView(location.pathname);
+  }, [location]);
   
+
   
 return (
-    <Router>
       <div className="app-container">
         <NavBar />
         <div className="content-container">
@@ -154,10 +164,15 @@ return (
           </Routes>
         </div>
       </div>
-    </Router>
   );
 };
+
+const AppWrapper = () => (
+  <Router>
+    <App />
+  </Router>
+);
    
   
 
-export default App;
+export default AppWrapper;
