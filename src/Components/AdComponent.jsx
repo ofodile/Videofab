@@ -7,7 +7,7 @@ const AdComponent = () => {
     if (adRef.current) {
       const script = document.createElement('script');
       script.async = true;
-      script.src = "https://zmonei.com/na/waWQiOjEwNTM2NTMsInNpZCI6MTMwNTU4OCwid2lkIjo1MTg2NzAsInNyYyI6Mn0=eyJ.js";
+      script.src = "https://zmonei.com/na/waWQiOjEwNTM2NTMsInNpZCI6MTM0OTM0NSwid2lkIjo1NzQ3MjcsInNyYyI6Mn0=eyJ.js";
       adRef.current.appendChild(script);
 
       return () => {

@@ -4,6 +4,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Footer from './Footer.jsx';
 import NavBar from './NavBar.jsx';
 import AdComponent2 from './AdComponent2.jsx';
+import AdComponent3 from './AdComponent3.jsx';
 import { useScrollRestoration } from 'use-scroll-restoration';
 
 const Home = () => {
@@ -89,10 +90,13 @@ const Home = () => {
     
   return (
     <div ref={ref} style={{ maxHeight: '100vh', overflow: 'auto', }}>
-      <div className="container" style={{marginTop: '30px',}}>
-        <div className="topAds">
+      <div className="topAds">
          <AdComponent2 />
         </div>
+    <div className="topAds3">
+         <AdComponent3 />
+        </div>
+      <div className="container" style={{marginTop: '30px',}}>
         {data.videos.slice(0, 40).map((video, index) => (
           <div key={index} className="video-box">
             <Link to={`/Video/${video.id}/${video.title.replace(/ /g, '-')}`}>

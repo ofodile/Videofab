@@ -4,6 +4,7 @@ import RelatedPost from "./RelatedPost.jsx"
 import AdComponent from "./AdComponent.jsx"
 import AdComponent1 from "./AdComponent1.jsx"
 import AdComponent2 from "./AdComponent2.jsx"
+import AdComponent3 from "./AdComponent3.jsx"
 import Footer from "./Footer.jsx"
 import "../Css/Video.css"
 import { useScrollRestoration } from 'use-scroll-restoration';
@@ -56,8 +57,11 @@ const Video = () => {
 
 return (
   <div className="main-video-container">
-   <div className="videoAds">
+       <div className="topAds">
          <AdComponent2 />
+        </div>
+       <div className="topAds3">
+         <AdComponent3 />
         </div>
     <div className="video-container">
        <div className="box1">

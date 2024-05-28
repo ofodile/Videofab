@@ -15,8 +15,13 @@ html, body {
 }
 
 .topAds{
+  display: none;
+}
+
+.topAds3{
   text-align: center;
   margin-bottom: 0;
+  margin-top: 15px;
 }
 
 .video-box {
@@ -63,8 +68,6 @@ h3{
   box-sizing: border-box;
   clear: both;
 }
-
-
 
 p{
   font-family: Alice;
@@ -229,6 +232,17 @@ p{
   .video-box:first-child{
     margin-top: 15px;
   }
+  
+  .topAds{
+  text-align: center;
+  margin-bottom: 0;
+  padding: 10px;
+  display: inline;
+}
+  
+  .topAds3{
+  display: none;
+}
   
   h3{
     text-align: left;
