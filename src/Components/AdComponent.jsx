@@ -1,24 +1,33 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 
 const AdComponent = () => {
-  const adRef = useRef(null);
-
   useEffect(() => {
-    if (adRef.current) {
-      const script = document.createElement('script');
-      script.async = true;
-      script.src = "https://zmonei.com/na/waWQiOjEwNTM2NTMsInNpZCI6MTM0OTM0NSwid2lkIjo1NzQ3MjcsInNyYyI6Mn0=eyJ.js";
-      adRef.current.appendChild(script);
-
-      return () => {
-        adRef.current.removeChild(script);
-      };
+    if (typeof window.atAsyncOptions !== 'object') {
+      window.atAsyncOptions = [];
     }
+    window.atAsyncOptions.push({
+      'key': '12569846fdf8319b5e5109150bc65306',
+      'format': 'js',
+      'async': true,
+      'container': 'atContainer-12569846fdf8319b5e5109150bc65306',
+      'params': {}
+    });
+
+    const script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'http' + (location.protocol === 'https:' ? 's' : '') + '://stoolsymphony.com/12569846fdf8319b5e5109150bc65306/invoke.js';
+    document.head.appendChild(script);
+
+    return () => {
+      // Cleanup: remove the script from the document head
+      document.head.removeChild(script);
+    };
   }, []);
 
   return (
-    <div ref={adRef}>
-      {/* The ad will be inserted here */}
+    <div id="atContainer-12569846fdf8319b5e5109150bc65306">
+      {/* The ad will be displayed inside this div */}
     </div>
   );
 };

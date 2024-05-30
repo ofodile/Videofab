@@ -57,11 +57,8 @@ const Video = () => {
 
 return (
   <div className="main-video-container">
-       <div className="topAds">
+  <div className="topAds">
          <AdComponent2 />
-        </div>
-       <div className="topAds3">
-         <AdComponent3 />
         </div>
     <div className="video-container">
        <div className="box1">
@@ -76,33 +73,21 @@ return (
             frameBorder="0"
             allowFullScreen
            ></iframe>
-           <div className="native-ads">
-           <div className="ads-img-div">
-           <Link to="https://stoolsymphony.com/n1du6w6d0?key=1e0654dd9470ca5fdbcb0428a687f117">
-           <img className="ads-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_4HNV4y9VENNM7Vhf13vW6T66g5mU2KNfFVFzJTgbBO4PYtElfJzM86CVs9a4OCYPVQ_bCEyA0GMH8e1ct17NE0uUVTS1XHYJh5rwhqqfu7LsKpZN9mWSNN3CwTywzJRktPKDVjHZ2biNZtKIuQfA_H0DekLbGmUMsjlkh5cPaxzvaTew34kc6wmyXsQ/s634/Click%20here%20to%20watch%20live%20sex%20with%20hot%20babas.png" alt="ADS" />
-          </Link>
-           </div>
-           </div>
+           <a href="https://stoolsymphony.com/n1du6w6d0?key=1e0654dd9470ca5fdbcb0428a687f117"><img className="ads-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_4HNV4y9VENNM7Vhf13vW6T66g5mU2KNfFVFzJTgbBO4PYtElfJzM86CVs9a4OCYPVQ_bCEyA0GMH8e1ct17NE0uUVTS1XHYJh5rwhqqfu7LsKpZN9mWSNN3CwTywzJRktPKDVjHZ2biNZtKIuQfA_H0DekLbGmUMsjlkh5cPaxzvaTew34kc6wmyXsQ/s634/Click%20here%20to%20watch%20live%20sex%20with%20hot%20babas.png" alt="ADS" /></a>
            <RelatedPost />
        </div>
-       <div className="ads">
-    <div className="native-ads">
-    <AdComponent1 />
+   <div className="native-ads">
+     <AdComponent1 />
     </div>
-          <Link to="https://stoolsymphony.com/n1du6w6d0?key=1e0654dd9470ca5fdbcb0428a687f117">
-            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgg6NYjK3l783U445DADiGYGRv3SOK2Zdjh7Ri8_jpYOIxxs-k56etxRFiHtg6L0eKZ7T5HMXShwnrEijLqOabq5F1CqdI7HtApvsQ8AxhWOUmdsSCwVUQj1ccrKMlGzUKlHSk1KFe4nlygQWKEq15E-xhNtnnXLecADyq0xJgOf8WYbkYPiNbf-MBMyTA/s320/JPREAD.png" alt="ADS" />
-          </Link>
-          
-       </div>
     </div>
     <div className="footer-div">
-    <div className="native-ads">
-    <AdComponent />
+    <div className="ad300">
+      <AdComponent />
     </div>
        <ul>
-       <div class="ten">
-      <h1>Categories</h1>
-    </div>
+          <div class="ten">
+            <h1>Categories</h1>
+          </div>
           <li className="tag-list" onClick={setReset}><Link to="/Anal" className="tags">Anal</Link></li>
           <li className="tag-list" onClick={setReset}><Link to="/African" className="tags">Africa</Link></li>
           <li className="tag-list" onClick={setReset}><Link to="/Blowjob" className="tags">Blowjob</Link></li>
