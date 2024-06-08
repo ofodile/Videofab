@@ -4,7 +4,7 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import Footer from './Footer.jsx';
 import NavBar from './NavBar.jsx';
 import { useScrollRestoration } from 'use-scroll-restoration';
-
+ 
 const Arab = () => {
   
   const [data, setData] = useState(null);

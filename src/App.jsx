@@ -117,7 +117,6 @@ return (
             <Route path="/cum" element={<Cum />} />
             <Route path="/cumshot" element={<Cumshot />} />
             <Route path="/ebony" element={<Ebony />} />
-            <Route path="/ebony" element={<Ebony />} />
             <Route path="/family" element={<Family />} />
             <Route path="/female-orgasm" element={<FemaleOrgasm />} />
             <Route path="/fetish" element={<Fetish />} />
