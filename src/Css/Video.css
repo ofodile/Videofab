@@ -41,6 +41,13 @@
   padding: 20px;
 }
 
+.adcom1{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 iframe{
   width: 600px;
   height: 400px;
@@ -121,6 +128,10 @@ iframe{
   
 .video-title{
   font-size: 20px;
+}
+
+.adcom1{
+  margin-top: 10px;
 }
 
 .ads-img-div{

@@ -5,6 +5,7 @@ import AdComponent from "./AdComponent.jsx"
 import AdComponent1 from "./AdComponent1.jsx"
 import AdComponent2 from "./AdComponent2.jsx"
 import AdComponent3 from "./AdComponent3.jsx"
+import AdComponent4 from "./AdComponent4.jsx"
 import Footer from "./Footer.jsx"
 import "../Css/Video.css"
 import { useScrollRestoration } from 'use-scroll-restoration';
@@ -73,11 +74,17 @@ return (
             frameBorder="0"
             allowFullScreen
            ></iframe>
-           <a href="https://stoolsymphony.com/n1du6w6d0?key=1e0654dd9470ca5fdbcb0428a687f117"><img className="ads-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_4HNV4y9VENNM7Vhf13vW6T66g5mU2KNfFVFzJTgbBO4PYtElfJzM86CVs9a4OCYPVQ_bCEyA0GMH8e1ct17NE0uUVTS1XHYJh5rwhqqfu7LsKpZN9mWSNN3CwTywzJRktPKDVjHZ2biNZtKIuQfA_H0DekLbGmUMsjlkh5cPaxzvaTew34kc6wmyXsQ/s634/Click%20here%20to%20watch%20live%20sex%20with%20hot%20babas.png" alt="ADS" /></a>
+           <div className="adcom1">
+              <AdComponent4 />
+           </div>
            <RelatedPost />
        </div>
+       
+         <div className="adcom1">
+           <AdComponent1 />
+         </div>
    <div className="native-ads">
-     <AdComponent1 />
+     <a href="https://stoolsymphony.com/n1du6w6d0?key=1e0654dd9470ca5fdbcb0428a687f117"><img className="ads-img" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_4HNV4y9VENNM7Vhf13vW6T66g5mU2KNfFVFzJTgbBO4PYtElfJzM86CVs9a4OCYPVQ_bCEyA0GMH8e1ct17NE0uUVTS1XHYJh5rwhqqfu7LsKpZN9mWSNN3CwTywzJRktPKDVjHZ2biNZtKIuQfA_H0DekLbGmUMsjlkh5cPaxzvaTew34kc6wmyXsQ/s634/Click%20here%20to%20watch%20live%20sex%20with%20hot%20babas.png" alt="ADS" /></a>
     </div>
     </div>
     <div className="footer-div">
